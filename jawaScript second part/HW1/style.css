@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto ;
+    
+   
+}
+header{
+    height: 50px;
+}
+body{
+    width: 980px; 
+    background-color: rgb(206, 202, 202);
+}
+
+.btn-cart{
+    background-color: blueviolet;
+    border-radius: 20px;
+    border-color: greenyellow;
+    border-width: 2px;
+border-style: solid;
+    height: 25px;
+    width: 125px;
+    margin: 10px;
+}
+.h{
+    color: blueviolet;
+    text-align: center;
+}
+.p{
+
+    color: darkgreen;
+    }
+    .by-btn{
+    background-color: deeppink;
+    color: gold;
+    border-radius: 20px;
+    border-color: greenyellow;
+    border-width: 2px;
+    border-style: solid;
+    height: 25px;
+    width: 125px;
+    }
+    .product-item{
+        display: grid;
+        gap: 7px;
+        border: rgb(153, 147, 147);
+        border-style: solid;
+        border-width: 3px;
+        width: 160px;
+        height: 80px;
+        margin-left: 15px;
+        
+    }
+    .products{
+        display: grid;
+   
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 10px;
+    }
