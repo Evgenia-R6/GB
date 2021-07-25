@@ -22,4 +22,4 @@ const renderProducts = (list = alert("Товары закончились")) => 
 
 renderProducts(products);
 
-// 
+// mmm
