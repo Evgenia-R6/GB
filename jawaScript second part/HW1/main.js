@@ -7,15 +7,16 @@ const products = [
 
 ];
 
-const renderProduct = (title, price) => 
+const renderProduct = (title, price, img ='img/unnamed.png') => 
      `<div class="product-item">
                 <h3  class="h">${title}</h3>
                 <p class="p">${price}</p>
+                <img class="product-foto" src ='${img}'>
                 <button class="by-btn">Добавить</button>
               </div>`;
 
 
-const renderProducts = (list = alert("Товары закончились")) => {
+const renderProducts = (list) => {
     const productList = list.map((item) => renderProduct(item.title, item.price));
     document.querySelector('.products').innerHTML = productList.join('');
 }
